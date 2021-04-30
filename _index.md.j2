@@ -1,0 +1,7 @@
+---
+title: "{{ title }}"
+albumtumb: "{{ album_thumb }}"
+resources:{%for item in resources%}
+- src: "{{ item.src }}"
+{%endfor%}
+---
